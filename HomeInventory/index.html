@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home Inventory</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+
+</head>
+
+<body onLoad="displayStuff()">
+  <div class="dropdown">
+    <button onclick="stuffFilter()" class="dropbtn">Filter</button>
+    <select id="things">
+      <option></option>
+      <option value="books">Books</option>
+      <option value="bigTicket">Big Ticket Items</option>
+      <option value="stuff">Misc Stuff</option>
+    </select>
+  </div>
+
+
+  <nav></nav>
+
+  <header></header>
+  <article id="myStuff">
+    <!-- content populated by JS -->
+
+  </article>
+
+  <footer></footer>
+
+  <script src="./scripts/createDatabase.js"></script>
+  <script src="./scripts/dbLoader.js"></script>
+  <script src="./scripts/appendinator.js"></script>
+  <script src="./scripts/componentFactory.js"></script>
+  <script src="./scripts/domMaker.js"></script>
+  <script src="./scripts/stuffFilter.js"></script>
+</body>
+
+</html>

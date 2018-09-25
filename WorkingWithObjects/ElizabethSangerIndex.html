@@ -1,0 +1,42 @@
+<!doctype html> 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Awesome Page</title>
+  <!-- <link rel="stylesheet" href="./"> -->
+
+</head>
+
+<body>
+  <div id="theCandidate">
+    <!-- content populated by JS below, pulling data from object.js -->
+  </div>
+  <script src="objects.js"></script>
+  <script>
+    const updateDOM = () => {
+        //indicate the div where this will land
+        let addInDiv = document.getElementById("theCandidate");
+
+        //create article element with the ID from the candidate object
+        let article = document.createElement("article")
+        article.setAttribute("id", candidate.district)
+
+        //create the UL for the platform elementss
+        let listElement = document.createElement("ul")
+
+        // add platform list to div
+        for (let i = 0; i < platform.length; i++) {
+          let liElement = document.createElement("li")
+          let textNode = document.createTextNode(platform[i].name + ": " + platform[i].value)
+          liElement.appendChild(textNode)
+          listElement.appendChild(liElement)
+          article.appendChild(listElement)
+        }
+
+        //add everything to the DOM
+        addInDiv.appendChild(article)
+      }
+      updateDOM()
+  </script>
+</body>
+</html>

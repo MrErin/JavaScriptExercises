@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>A Bunch 'o Places</title>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+
+</head>
+
+<body onLoad="visitedDOMBuilder()">
+  <div class="dropdown">
+    <button onclick="yearFilter()" class="dropbtn">Filter</button>
+    <select id="years">
+      <option></option>
+      <option value="1988">1988</option>
+      <option value="2000">2000</option>
+      <option value="2001">2001</option>
+      <option value="2006">2006</option>
+      <option value="2008">2008</option>
+    </select>
+  </div>
+
+
+  <div class="wrapper">
+    <article id="visited">
+      <!-- content populated from citiesDB in js files -->
+    </article>
+  </div>
+
+  <footer></footer>
+
+  <script src="database.js"></script>
+  <script src="loader.js"></script>
+  <script src="domMaker.js"></script>
+  <script src="yearPicker.js"></script>
+
+</body>
+
+</html>

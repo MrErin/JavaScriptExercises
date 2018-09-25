@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Representative Cooper -->
+    <article id="rep" class="representative">
+        <!-- All the information -->
+        <section class="representative__info">
+            <!-- Photo of the guy -->
+            <img src="https://www.govtrack.us/data/photos/400081-200px.jpeg" alt="Rep Cooper" class="image repImage">
+            <!-- This is a name -->
+            <h3 class="name repName">Rep. Jim Cooper</h3>
+            <!-- Whom he works for -->
+            <p>Representative for Tennessee's 5th District</p>
+            <!-- Political affiliation -->
+            <p>DEMOCRAT</p>
+            <!-- Committee membership -->
+            <section>
+                <h1>Committee Memberships</h1>
+                <ul id="nope">
+                    <li>House Committee for Armed Services</li>
+                    <ul>
+                        <li>Ranking Member, Subcommittee on Strategic Forces</li>
+                        <li>Member, Subcommittee on Emerging Threats and Capabilities</li>
+                        <li>Member, Subcommittee on Tactical Air and Land Forces</li>
+                    </ul>
+                    <li>House Committee on Oversight and Government Reform</li>
+                        <ul>
+                            <li>Member, Subcommittee on Healthcare, Benefits, and Administrative Rules</li>
+                        </ul>
+                </ul>
+            </section>
+            <!-- Enacted legislation -->
+            <section>
+                <h1>Enacted Legislation</h1>
+                <ul>
+                    <li>H.R. 928</li>
+                    <li>H.J.Res 297</li>
+                    <li>H.R. 5667</li>
+                    <li>H.R. 971</li>
+                </ul>
+            </section>
+
+        </section>
+    </article>
+    <footer></footer>
+    <script>
+        function addMission() {
+                let node = document.createElement("P");
+                let mission = document.createTextNode("Holding the blue line in a red state");
+                node.appendChild(mission);
+                document.getElementById("rep").appendChild(node);
+        }
+        addMission();
+
+        function addDistrict() {
+            let article = document.getElementsByTagName("ARTICLE")[0];
+            let num = document.createAttribute("congressional-district");
+            num.value = "5";
+            article.setAttributeNode(num);
+        }
+        addDistrict();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+/*
+
+Author:
+Project:
+
+comment headings generator: http: //patorjk.com/software/taag/#p=display&f=Electronic&t=Grid
+        
+*/
+body {
+  padding: 20px;
+  font-family: Helvetica;
+  background-color: #20262e;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 10px;
+}
+
+.stage {
+  border: solid 1px #D6D6D6;
+  background-color: #D6D6D6;
+  padding: 2rem;
+  border-radius: 5px;
+  margin: 2rem;
+}
+
+.currentStage {
+  min-height: 100px;
+  border: 1px dotted lightpink;
+  margin-bottom: 15px;
+}
+
+.finishedStage {
+  min-height: 100px;
+  border: 1px dotted lightseagreen;
+  margin-top: 15px;
+}
+
+.readyStage {
+  min-height: 100px;
+  border: 1px dotted lightyellow;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=styles.css.map */

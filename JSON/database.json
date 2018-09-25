@@ -1,0 +1,134 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "name": "Linguine",
+      "type": "pasta",
+      "ethnicity": "wtf?",
+      "sideDishes": [
+        "asparagus",
+        "squash"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Curry",
+      "type": "curry",
+      "ethnicity": "again, wtf?",
+      "sideDishes": [
+        "tom ka kai",
+        "curry puffs"
+      ]
+    },
+    {
+      "name": "Red curry",
+      "type": "curry",
+      "ethnicity": "again, wtf?",
+      "sideDishes[]": [
+        "Chicken satee",
+        "Samosa"
+      ],
+      "id": 3
+    },
+    {
+      "name": "Sandwiches",
+      "type": "Carbs plus filling",
+      "ethnicity": "Whatever",
+      "sideDishes[]": [
+        "salad",
+        "fries"
+      ],
+      "id": 4
+    },
+    {
+      "name": "Sandwiches",
+      "type": "Carbs plus filling",
+      "ethnicity": "Whatever",
+      "sideDishes[]": [
+        "salad",
+        "fries"
+      ],
+      "id": 5
+    },
+    {
+      "name": "Sandwiches",
+      "type": "Carbs plus filling",
+      "ethnicity": "Whatever",
+      "sideDishes[]": [
+        "salad",
+        "fries"
+      ],
+      "id": 6
+    },
+    {
+      "name": "Sandwiches",
+      "type": "Carbs plus filling",
+      "ethnicity": "Whatever",
+      "sideDishes[]": [
+        "salad",
+        "fries"
+      ],
+      "id": 7
+    },
+    {
+      "name": "Sandwiches",
+      "type": "Carbs plus filling",
+      "ethnicity": "Whatever",
+      "sideDishes[]": [
+        "salad",
+        "fries"
+      ],
+      "id": 9
+    },
+    {
+      "name": "Sandwiches",
+      "type": "Carbs plus filling",
+      "ethnicity": "Whatever",
+      "sideDishes[]": [
+        "salad",
+        "fries"
+      ],
+      "id": 10
+    },
+    {
+      "name": "Sandwiches",
+      "type": "Carbs plus filling",
+      "ethnicity": "Whatever",
+      "sideDishes[]": [
+        "salad",
+        "fries"
+      ],
+      "id": 11
+    },
+    {
+      "name": "Sandwiches",
+      "type": "Carbs plus filling",
+      "ethnicity": "Whatever",
+      "sideDishes[]": [
+        "salad",
+        "fries"
+      ],
+      "id": 12
+    },
+    {
+      "name": "Sandwiches",
+      "type": "Carbs plus filling",
+      "ethnicity": "Whatever",
+      "sideDishes[]": [
+        "salad",
+        "fries"
+      ],
+      "id": 13
+    },
+    {
+      "name": "Sandwiches",
+      "type": "Carbs plus filling",
+      "ethnicity": "Whatever",
+      "sideDishes[]": [
+        "salad",
+        "fries"
+      ],
+      "id": 14
+    }
+  ]
+}
