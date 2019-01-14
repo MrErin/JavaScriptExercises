@@ -30,6 +30,7 @@ This repo holds all of the individual projects and lightning exercises in the fr
   * [Coins to Cash/Cash to Coins JS](./Math/coinsToCash.js) & [HTML](./Math/coinsToCashIndex.html)
 * Working with Objects
   * [Elizabeth Sanger JS](./WorkingWithObjects/ElizabethSangerObjects.js) & [HTML](./WorkingWithObjects/ElizabethSangerIndex.html)
+  * [Lunch Dates](./WorkingWithObjects/lunchdates.js)
 * Printing to the DOM
   * [GovTrack](./PrintingToDOM/govtrack.html)
   * [Mod Squad JS](./Scope/ModSquad.js) & [HTML](./Scope/ModSquadIndex.html)
